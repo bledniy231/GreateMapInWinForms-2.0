@@ -64,6 +64,8 @@ namespace FourthTask.DAL
 				new AreaCoordinate { AreaId = 1, AreaCoordinateId = 2, Latitude = 55.16158750374075, Longitude = 61.39312229229125 },
 				new AreaCoordinate { AreaId = 1, AreaCoordinateId = 3, Latitude = 55.15879084992464, Longitude = 61.391890341658154 }
 			});
+
+			base.OnModelCreating(modelBuilder);
 		}
 	}
 }
